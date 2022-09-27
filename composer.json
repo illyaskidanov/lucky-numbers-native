@@ -15,5 +15,8 @@
         "codeception/module-asserts": "^3.0",
         "codeception/module-phpbrowser": "^3.0",
         "codeception/module-rest": "^3.3"
+    },
+    "require": {
+        "phpstan/phpstan": "^1.8"
     }
 }
