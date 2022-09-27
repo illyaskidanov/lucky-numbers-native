@@ -1,10 +1,19 @@
 {
-  "name": "illyaskidanov/g5-test-native",
-  "require": {},
-  "autoload": {
-    "psr-4": {
-      "App\\": "src/"
+    "name": "illyaskidanov/g5-test-native",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Unit\\": "tests/unit",
+            "Functional\\": "tests/functional"
+        },
+        "files": [
+            "src/functions.php"
+        ]
     },
-    "files": ["src/functions.php"]
-  }
+    "require-dev": {
+        "codeception/codeception": "^5.0.0 || ^4.0",
+        "codeception/module-asserts": "^3.0",
+        "codeception/module-phpbrowser": "^3.0",
+        "codeception/module-rest": "^3.3"
+    }
 }
