@@ -1,0 +1,10 @@
+{
+  "name": "illyaskidanov/g5-test-native",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    },
+    "files": ["src/functions.php"]
+  }
+}

@@ -1,0 +1,18 @@
+#luckyNumberForm {
+    display: flex;
+    align-items: center;
+}
+
+#luckyNumberForm > * {
+    margin-right: 10px;
+}
+
+#spinner {
+    display: none;
+    width: 15px;
+    height: 15px;
+}
+
+#error {
+    color: #ff0000;
+}
